@@ -5,7 +5,7 @@
 }
 .nav {
   width: 100%;
-  padding: 30px;
+  padding: 10px 30px 0 30px;
   display: flex;
   justify-content: space-between;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -14,6 +14,15 @@
   width: 30%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  width: 100px;
+  height: 70px;
+  background-image: url('https://cdn2.vectorstock.com/i/1000x1000/90/11/cat-unicorn-icon-cute-funny-fantasy-animal-vector-25119011.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .footer {
   position: fixed;
@@ -26,4 +35,16 @@
 .footer p {
   text-align: center;
   color: white;
+}
+.presentation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background: #ffe8d6;
+}
+.presentation {
+  width: 50%;
+
+  text-align: center;
 }
