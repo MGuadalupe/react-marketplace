@@ -1,4 +1,5 @@
 import React from 'react'
+import { ItemCount } from './ItemCount'
 
 const ItemListContainer = ({ title, message }) => {
   return (
@@ -6,6 +7,7 @@ const ItemListContainer = ({ title, message }) => {
       <div className='presentation'>
         <h2>{title}</h2>
         <p>{message}</p>
+        <ItemCount stock={10} initial={1} />
       </div>
     </div>
   )
