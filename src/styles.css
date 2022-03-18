@@ -60,3 +60,36 @@
   width: 50%;
   margin: 40px 0;
 }
+.products-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.productCard {
+  background-color: white;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+}
+.productCard img {
+  max-width: 200px;
+}
+.loading-image {
+  width: 300px;
+  margin: auto;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
